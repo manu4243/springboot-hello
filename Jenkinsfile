@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-node ('Built-In Node') {
+node ('builtin_node') {
 
 stage ('checkout') {
 	checkout scm
