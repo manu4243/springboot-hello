@@ -9,7 +9,7 @@ stage ('checkout') {
 stage ('Build'){
 	
 	sh """
-	docker build -t springboot-hello:latest .
+	sudo docker build -t springboot-hello:latest .
 	
 	"""
 }
